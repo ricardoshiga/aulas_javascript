@@ -65,6 +65,22 @@ if (media < 3) {
 
 console.log(desempenho);
 
+console.log("..................................");
 
+/* if/else de uma linha (shorthand if/else) */
+let idade = 20;
 
+// Versão "normal" 
+// let resultado;
+// if (idade >= 18 ){
+//     resultado = "maior"
+// }  else {
+//     resuldado = "menor;"
+// }
 
+// Versão abreviada
+let resultado = idade >= 18 ? "maior" : "menor"
+                           /* ?: ---> Operador Ternário */
+console.log(`A pessoa é ${resultado} de idade`);
+
+console.log("....................");
