@@ -38,10 +38,13 @@ Específicos: for/of, for/in)
 
 // Exemplo 4: loop com array
 const alunos = [
-    "Daniel", "Rafael", "Ricardo", "Camila", "Waleska", "Tiago", "Vinicius"
+    "Daniel", "Rafael", "Ricardo", "Camila", "Waleska", "Tiago", "Vinicius", "Ross", "Rachel"
 ];
 
-for( let i = 0; i < 7; i++){
+// Guardando tamanho/comprimento do array
+let quantidade = alunos.length
+
+for( let i = 0; i < quantidade; i++){
     console.log(`Nome: ${alunos[i]}`);
 
 }
